@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/allBack"
+    android:orientation="vertical">
+
+
+
+
+    <FrameLayout
+        android:id="@+id/gameContainer"
+        android:layout_width="324dp"
+        android:layout_height="324dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/gameViewBack">
+
+        <!-- 游戏控件 -->
+
+        <com.jianyiclub.jianyi2048.views.GameView
+            android:id="@+id/gameView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <!-- 动画控件 -->
+
+        <com.jianyiclub.jianyi2048.uitls.AnimLayer
+            android:id="@+id/animLayer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+</LinearLayout>

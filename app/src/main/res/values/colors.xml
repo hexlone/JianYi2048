@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 背景色 -->
+    <color name="_2Back">#eee4da</color>
+    <color name="_4Back">#ede0c8</color>
+    <color name="_8Back">#f2b179</color>
+    <color name="_16Back">#f59563</color>
+    <color name="_32Back">#f67c5f</color>
+    <color name="_64Back">#f65e3b</color>
+    <color name="_128Back">#edcf72</color>
+    <color name="_256Back">#edc750</color>
+    <color name="_512Back">#edc850</color>
+    <color name="_1024Back">#ecc640</color>
+    <color name="_2048Back">#edc22d</color>
+
+    <color name="allBack">#faf8ef</color>
+    <color name="gameViewBack">#bbada0</color>
+
+</resources>
